@@ -1,0 +1,82 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Olap SSAS superstore 3</Database>
+    <Server>LAPTOP-95JSKFHK</Server>
+    <ConnectionString>Data Source=LAPTOP-95JSKFHK;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>9Lg0E2HjZaAmzG7oe0zAgm/GZ8E=5/20/2023 10:02:46 PM5/20/2023 10:02:46 PM</TimeStamp>
+        <ID>
+          <String>DW Super Store</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>CG9diK8UqE0bK+ZpbRxB3egCJLg=5/20/2023 10:03:08 PM5/20/2023 10:03:08 PM</TimeStamp>
+        <ID>
+          <String>DW Super Store</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>I/PwoE5Yv6ydBOM8BgrDcdrgojE=6/1/2023 1:32:55 PM5/20/2023 10:03:22 PM</TimeStamp>
+        <ID>
+          <String>Dim Product</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>98hXr4PkwrL5ksOthjld+ofkk2Q=5/20/2023 10:07:14 PM5/20/2023 10:03:22 PM</TimeStamp>
+        <ID>
+          <String>Dim Shipping</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>bYYLZB5sMB+Mxo72t+AxC8NSTNg=5/20/2023 10:05:09 PM5/20/2023 10:03:22 PM</TimeStamp>
+        <ID>
+          <String>Dim Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>I8u6uMIL3Ikj9arseBc9ZvUTVv8=5/20/2023 10:04:13 PM5/20/2023 10:03:22 PM</TimeStamp>
+        <ID>
+          <String>Dim Order</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>0xlu7WY8krDe+J0A/iOwVpzACLw=5/22/2023 9:21:20 PM5/20/2023 10:03:22 PMuv6JXRI3U/wMIHVFxWos8wBy59c=5/20/2023 10:03:22 PM5/20/2023 10:03:22 PM</TimeStamp>
+        <ID>
+          <String>DW Super Store</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>zjPT16JS5Ahzr6LvJ8nqUXzp3Oc=5/20/2023 9:59:11 PM5/20/2023 9:59:10 PM</TimeStamp>
+      <ID>
+        <String>Olap SSAS superstore 3</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2023-06-01T06:33:00.213333Z</LastDeployed>
+</DeploymentSnapshot>

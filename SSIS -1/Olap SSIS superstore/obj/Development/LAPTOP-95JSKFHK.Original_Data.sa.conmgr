@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="LAPTOP-95JSKFHK.Original_Data.sa"
+  DTS:DTSID="{EC873574-D35F-4B4A-BBAC-1DB538C51034}"
+  DTS:CreationName="ADO">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=LAPTOP-95JSKFHK;User ID=sa;Initial Catalog=Original_Data;Provider=SQLNCLI11.1;Persist Security Info=True;Application Name=SSIS-Olap SSIS superstore-{EC873574-D35F-4B4A-BBAC-1DB538C51034}LAPTOP-95JSKFHK.Original_Data.sa;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA09MiYriBZkyEiblFdpE/3wAAAAACAAAAAAAQZgAAAAEAACAAAADuSXKlQiYw0gczbtwZnuvT/ca4MY7bcQIqICxBWQsk3AAAAAAOgAAAAAIAACAAAAAyBZpw4JegcvX5ql2wedEI0d35u+/qoXpegXux+8dc9IAAAACxLKD9jjgsSJ3eUEWMQvljqHe8G+d3kycNpp4rvPRD6S94Zs6PdAE+vK4XdaC+dVsaTgs/M7juzWaAviuOBrGi1HdVlYQ8M4S9vtMzbDfjktnhqGW+veMYVSgvF+5U5bY6TITpJbGuTNiWeY7GgFiAt9sI57W4D0EK+EuTfJGZK0AAAAAZG0GE+D/UJl7H1iRg0a7SlAXhto/IEMd6UaZUnEyvRfiVBxe+okzyZZ6ar+lkV6J+avBY55cPZ+lSqxbyxpbJ</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
